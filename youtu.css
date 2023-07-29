@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(41, 41, 87);
+    height: 100vh;
+} 
+.box1{
+    position: absolute;
+    left: -150px;
+    top: -150px;
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0, 187, 255, 0.459);
+    border-radius: 150px 100px;
+    rotate: 20deg;
+}
+.box2{
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0, 187, 255, 0.459);
+    border-radius: 150px 100px;
+    rotate: 20deg;
+}
+.logo{
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    font-size: 12px;
+}
+.logo h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.links{
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    
+}
+.links  a{
+    text-decoration: none;
+    margin-right:20px ;
+}
+.links a:hover{
+    color: aqua;
+    font-size: 17px;
+    margin-right: 17px;
+}
+.boxemage1{
+    position: absolute;
+    top: 85px;
+    left: 950px;
+}
+.photo1{
+    height: 600px;   
+}
+.ecr{
+    display: flex;
+    position: absolute;
+    top: 35vh;
+    left: 5vw;
+}
+.ecr p{
+    margin: 0px 10px;
+    font-size: 30px;
+}
+.ecr h1{
+    color: aqua;
+}
+.des{
+    position: absolute;
+    top: 44vh;
+    left: 7vw;
+}
+.des a{
+    text-decoration: none;
+    border: 1px aqua solid;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color:  rgb(41, 41, 87);
+    background-color: aqua;
+    font-size: 17px;
+    box-shadow: 0 0 8px aqua;
+}
+.des a:hover{
+    font-size: 18px;
+    box-shadow: none;
+}
